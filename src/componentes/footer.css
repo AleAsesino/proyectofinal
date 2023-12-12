@@ -1,0 +1,88 @@
+.cajaFinal{
+    background-color: rgb(12, 12, 12);
+    
+    color: white;
+}
+.cajaLogo{
+    
+}
+.cajaLogoUMSA{
+    
+    
+}
+.text5{
+   font-size: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ul1 {
+    margin:0;
+    padding:0;
+    display:flex;
+    position: relative;
+    justify-content: center;
+  }
+.ul1 .li1 {
+    list-style:none;
+    margin: 0 15px;
+  }
+  
+.ul1 .li1 .a1 {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #171515;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+  }
+  
+  .ul1 .li1 .a1:before {
+    content: '';
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background: #d35400;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  .ul1 .li1 .a1:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400;
+    filter: blur(3px);
+  }
+  
+  .ul1 .li1 .a1:hover {
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  }
+
+  .fa{
+ 
+    position: relative;
+    bottom: 4px;
+  }

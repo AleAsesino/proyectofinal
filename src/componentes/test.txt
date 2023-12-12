@@ -1,0 +1,158 @@
+<div className='container mt-5 mb-5'>
+
+        <div className='row'>
+          <div className='col-md-4 p-5'>
+              <div class="card">
+                <img src={datosImg[0]} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">La Paz</h5>
+                  <p class="card-text"> Este plato consiste en habas, queso, papas y choclo. Las habas y las papas son cocidas, y se sirven con queso y choclo, creando una combinación de sabores y texturas distintivas.</p>
+                  <a href="#" class="btn btn-primary">Ver</a>
+                </div>
+              </div>
+          </div>
+
+
+          <div className='col-md-4 p-5'>
+              <div class="card">
+                <img src={datosImg[1]} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Beni</h5>
+                  <p class="card-text">El plato típico de Beni, Bolivia, es el "Bolpebra". Esta deliciosa preparación combina carne de res, yuca, plátano y otros ingredientes en un guiso sabroso y representativo de la región amazónica.</p>
+                  <a href="#" class="btn btn-primary">Ver</a>
+                </div>
+              </div>
+          </div>
+
+
+          <div className='col-md-4 p-5'>
+              <div class="card">
+                <img src={datosImg[2]} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">Cochabamba</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver</a>
+                </div>
+              </div>
+          </div>
+
+
+
+          
+        </div>
+
+
+
+
+        <div className='row mt-5 mb-5 '>
+
+
+          <div className='col-md-4 p-5'>
+                <div class="card">
+                  <img src={datosImg[3]} class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                    <h5 class="card-title">Oruro</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Ver</a>
+                  </div>
+                </div>
+          </div>
+
+
+          <div className='col-md-4 p-5'>
+                <div class="card">
+                  <img src={datosImg[4]} class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                    <h5 class="card-title">Potosi</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Ver</a>
+                  </div>
+                </div>
+          </div>
+
+
+          <div className='col-md-4 p-5'>
+                <div class="card">
+                  <img src={datosImg[5]} class="card-img-top" alt="..."/>
+                  <div class="card-body">
+                    <h5 class="card-title">Pando</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Ver</a>
+                  </div>
+                </div>
+          </div>
+
+        </div>
+
+  
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      ////////////////////////////formulario v1///////////////////////
+      <div className='d-flex align-items-center justify-content-center cajaForm p-5 '>
+              <form>
+                  <h2 className='fw-bold text-center'>Bienvenido</h2>
+                  <div className='mb-4'>
+                    <label for='email' className='form-label'>Usuario</label>
+                    <input type='email' className='form-control' name='email'></input>
+                  </div>
+
+
+
+
+
+                  <div className='mb-4'>
+                    <label for='password' className='form-label'>Contraseña</label>
+                    <input type='password' className='form-control' name='password'></input>
+                  </div>
+
+
+
+                  <div className='row'>
+                    <div className='col-md-6'>
+
+                    </div>
+                    <div className='col-md-6'>
+
+                    </div>
+                  </div>
+              </form>
+              
+          </div>
+
+
+////////////////Galeria de fotos beta///////////////////////////
+<div className='container'>
+          <div className='row'>
+
+                <div className='col-md-4 bg-primary'>
+                  <img className='img-fluid mx-auto imgC' src={datosImg[6]}></img>
+                </div>
+
+                <div className='col-md-8 bg-secondary'>
+                  <img className='img-fluid mx-auto imgC' src={datosImg[0]}></img>
+                </div>
+
+          </div>
+          <div className='row'> 
+
+                <div className='col-md-8 bg-success'>
+                  <img className='img-fluid imgC' src={datosImg[3]}></img>
+                </div>
+
+                <div className='col-md-4 bg-info'>
+                  <img className='img-fluid imgC' src={datosImg[2]}></img>
+                </div>
+
+          </div>
+      </div>

@@ -1,0 +1,16 @@
+.CardImagenes{
+    height: 190px;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.329);
+    transition: all 0.7s linear;
+}
+
+.CardImagenes:hover{
+    transform: scale(1.5);
+
+}
+.cajaImg{
+    overflow: hidden;
+}

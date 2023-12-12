@@ -1,0 +1,28 @@
+.fondoP{
+   
+}
+.tituloP{
+    font-size: 60px;
+    text-align: center;
+    color:antiquewhite;
+}
+.cajaC{
+    height: 580px;
+}
+.imgC{
+    height: 100%;
+    object-fit: cover;
+}
+.card{
+    width: 18rem;
+}
+.contenedor-cartas{
+    
+}
+.textCustomCards{
+    color: #9BB8CD;
+}
+.textCustomMenu{
+    color: #FFF78A;
+    
+}
