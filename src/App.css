@@ -1,8 +1,8 @@
 
 .cajaP1{
     background-color: rgb(43, 43, 43);
-    /*background: linear-gradient(70deg, blue, pink);*/
-   
+    /* background: linear-gradient(70deg, blue, pink); */
+    background: linear-gradient( rgb(70, 66, 66),rgb(184, 83, 43));
 }
 .cajaP2{
     background-color: rgb(26, 24, 24);

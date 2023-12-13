@@ -19,7 +19,7 @@ const departamento = ({dataDep}) => {
         </div>
 
         {/* llenar con imagen del plato, descripcion del plato, nombre plato*/}
-        <div className='row mt-5'>
+        <div className='row mt-5 mb-5'>
           <div className='col-md-5'>
             <img src={dataDep.imagenPlato} className='w-100'></img>
           </div>

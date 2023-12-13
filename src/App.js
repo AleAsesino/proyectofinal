@@ -163,8 +163,8 @@ function App() {
       tituloP: 'Farofa',
       imagenPlato: imgPlatoPando,
       descripcionPlato:'Farofa: Alimento elaborado con harina de yuca con charque de res. ' ,
-      descripcionLarga1:'',
-      descripcionLarga2:'',
+      descripcionLarga1:'Pando, un rincón amazónico de Bolivia, se destaca por su exuberante biodiversidad y su conexión con la naturaleza. La capital, Cobija, se encuentra rodeada de vastas selvas y ríos que caracterizan la región. Pando es conocido por ser el punto de entrada a la Reserva Nacional de Vida Silvestre Amazónica Manuripi, hogar de una variada fauna y flora.',
+      descripcionLarga2:'La gastronomía en Pando refleja la influencia de la selva. Platos como el "Tacuara", preparado con carne y arroz envuelto en hojas de tacuara, y el "Majao", una mezcla de carne, arroz y plátano, destacan por su autenticidad y sabor. Pando ofrece una experiencia única donde la naturaleza y la cultura se entrelazan, invitando a explorar la riqueza de la Amazonía boliviana.',
     },
     {
       id: 2,
@@ -174,8 +174,8 @@ function App() {
       tituloP: 'Masako',
       imagenPlato: imgPlatoBeni,
       descripcionPlato: 'Masako: Plátano semi maduro, charque de res, queso y chicharrón de cuero de cerdo.',
-      descripcionLarga1:'Pando, un rincón amazónico de Bolivia, se destaca por su exuberante biodiversidad y su conexión con la naturaleza. La capital, Cobija, se encuentra rodeada de vastas selvas y ríos que caracterizan la región. Pando es conocido por ser el punto de entrada a la Reserva Nacional de Vida Silvestre Amazónica Manuripi, hogar de una variada fauna y flora.',
-      descripcionLarga2:'La gastronomía en Pando refleja la influencia de la selva. Platos como el "Tacuara", preparado con carne y arroz envuelto en hojas de tacuara, y el "Majao", una mezcla de carne, arroz y plátano, destacan por su autenticidad y sabor. Pando ofrece una experiencia única donde la naturaleza y la cultura se entrelazan, invitando a explorar la riqueza de la Amazonía boliviana.',
+      descripcionLarga1:'Beni es una región situada en el noreste de Bolivia, conocida por su diversidad natural y cultural. Con vastas llanuras, ríos como el Mamoré y una rica biodiversidad, alberga diversas especies de flora y fauna. Su población refleja la mezcla de culturas indígenas y mestizas, contribuyendo a una rica herencia cultural. La capital, Trinidad, es un centro urbano y cultural importante. Beni desempeña un papel vital en la economía boliviana, destacándose por la agricultura, la ganadería y la pesca. Su paisaje único y la conexión con la Amazonía hacen de Beni un destino fascinante tanto para residentes como para visitantes.',
+      descripcionLarga2:'La gastronomía de Beni, región boliviana, destaca por su fusión de sabores autóctonos y mestizos. Platos emblemáticos incluyen la "majadita beniana", a base de carne de res y plátano verde, y el "patarashca", pescado envuelto en hojas de bijao y asado. La riqueza de los ríos Mamoré e Iténez contribuye a la variedad de pescados frescos en la dieta, como el dorado y el surubí. Se saborean también productos de la tierra como la yuca, el plátano y la carne de caza. Estas delicias reflejan la identidad cultural de Beni, celebrando la conexión entre su gente y su entorno natural.',
     },
     {
       id: 3,
@@ -216,15 +216,16 @@ function App() {
         <div className='col-xxl-10 cajaP2 p-0'>
           
           <Routes>
-            <Route path='/menu' element={<Menu datosImg={dataImg} departamento1={DataDepartamento1} departamento2={DataDepartamento2} departamento3={DataDepartamento3} punter={setDataDep}></Menu>}></Route>
+            <Route path='/proyectofinal' element={<Menu datosImg={dataImg} departamento1={DataDepartamento1} departamento2={DataDepartamento2} departamento3={DataDepartamento3} punter={setDataDep}></Menu>}></Route>
             <Route path='/departamento' element={<Departamento dataDep={dataDep} ></Departamento>}></Route>
             <Route path='/Login' element={<Formulario data={dataUsuario} punter={setUsuarioActual} setCaja={setCajaPerfil} datosUsuario={usuarioActual}></Formulario>}></Route>
             <Route path='/Perfil' element={<Perfil></Perfil>}></Route>
             <Route path='/Usuarios' element={<Usuarios Data={dataUsuario}></Usuarios>}></Route>
             <Route
               path='/'
-              element={<Navigate to='/menu' />}  // Redirige a /menu por defecto
+              element={<Navigate to='/proyectofinal' />}  // Redirige a /menu por defecto
             />
+
          
           </Routes>
           <Footer></Footer>

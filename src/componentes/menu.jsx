@@ -177,7 +177,7 @@ const menu = ({datosImg, departamento1, departamento2, departamento3,punter}) =>
 {/* collach de imagenes de bolivia arreglar */}
 
 
-      <div className='container'>
+      <div className='container mb-5'>
         <h2 className='text-center textCustomCards p-5'>
           Conoce más de Bolivia!
         </h2>
