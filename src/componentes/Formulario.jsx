@@ -1,10 +1,18 @@
 import React from 'react'
 import {useState} from 'react'
+
+import { useNavigate } from 'react-router-dom';
+
+
+
 import imagenFondoForm from '../imagenes/fondoForm.jpg'
 import AlertComp from './AlertComp.jsx'
 import CerrarSesion from './CerrarSesion.jsx'
 import './Formulario.css'
 const Formulario = ({data,punter,setCaja,datosUsuario}) => {
+  const navigate = useNavigate();   //redireccionamiento 1.0v
+
+
   const [usuario,setUsuario]=useState();
   const [contraseña,setconstraseña]=useState();
   // const [valorCheck,setValorCheck]=useState(false);
@@ -36,6 +44,7 @@ const Formulario = ({data,punter,setCaja,datosUsuario}) => {
           punter(x[0])
           setCaja(<CerrarSesion datosUsuario={x[0]} setCaja={setCaja}/>);
           setCajaAlert();
+          navigate('/proyectofinal');
         }
   }
   return (
