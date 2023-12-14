@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyectofinal/static/css/main.95638647.css",
-    "main.js": "/proyectofinal/static/js/main.2abe2dca.js",
+    "main.js": "/proyectofinal/static/js/main.8b7e9037.js",
     "static/js/787.261b5c92.chunk.js": "/proyectofinal/static/js/787.261b5c92.chunk.js",
     "static/media/FondoPerfil1.jpg": "/proyectofinal/static/media/FondoPerfil1.55fbc96e4a4b100ec542.jpg",
     "static/media/cropped-7680-4320-1113102.jpg": "/proyectofinal/static/media/cropped-7680-4320-1113102.9f9ed5dc96c81f00bf91.jpg",
@@ -39,11 +39,11 @@
     "static/media/UmsaLogo.png": "/proyectofinal/static/media/UmsaLogo.67ef652c912ae1da7725.png",
     "index.html": "/proyectofinal/index.html",
     "main.95638647.css.map": "/proyectofinal/static/css/main.95638647.css.map",
-    "main.2abe2dca.js.map": "/proyectofinal/static/js/main.2abe2dca.js.map",
+    "main.8b7e9037.js.map": "/proyectofinal/static/js/main.8b7e9037.js.map",
     "787.261b5c92.chunk.js.map": "/proyectofinal/static/js/787.261b5c92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95638647.css",
-    "static/js/main.2abe2dca.js"
+    "static/js/main.8b7e9037.js"
   ]
 }
